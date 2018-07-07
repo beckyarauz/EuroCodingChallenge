@@ -1,0 +1,106 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+nav {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color:#c4f5ff;
+}
+
+a:hover {
+    color:white;
+}
+
+nav > ul {
+    display: flex;
+    margin-left: 200px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding:0 5px;
+}
+
+header {
+    height: 80vh;
+    background-image: url(https://raw.githubusercontent.com/ironhack/euro-coding-challenge/master/ironhack/images/hexagon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding:0 20vw;
+
+}
+
+.content {
+    padding-top:5vh;
+
+}
+
+.stuff {
+    display:flex;
+    flex-direction: column;
+}
+
+.box {
+    
+    background-color: white;
+    width:100%;
+    padding:10%;
+    height:auto;
+    -webkit-box-shadow: 10px 14px 34px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 14px 34px -22px rgba(0,0,0,0.75);
+    box-shadow: 10px 14px 34px -22px rgba(0,0,0,0.75);
+    border-radius: 10px;
+
+    margin-top: 50px;
+
+}
+
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+section {
+    height: 80vh;
+    padding:0 20vw;
+    padding-bottom: 50px;
+}
+
+.featured {
+    background-color: #2d354c;
+    color: white;
+}
+
+.featured > img {
+    float:right;
+}
+
+
+
+.featured >.text {
+    position: absolute;
+    padding-top:100px;
+    width:450px;
+}
+
+.ratings {
+    background-color: #fff3e4;
+    height: auto;
+}
+
+.text {
+    padding-top: 50px;
+}
+
+.score {
+    color:#827f8a;
+}
+
